@@ -1,0 +1,37 @@
+body {
+    background-color: LightSteelBlue;
+    text-align: center;
+}
+
+#Jeu {
+    display: inline-block;
+    background-color: rgb(88, 180, 70);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#Jeu div {
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+#Jeu button {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+#StatutJeu {
+    color: black;
+    background: #eee;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
