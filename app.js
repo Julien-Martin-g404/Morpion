@@ -143,14 +143,14 @@ function main() {
                     afficheur.sendMessage(
                         "Le joueur " +
                         joueurs[tour] +
-                        ' a gagné ! <br /> <a href="morpion.html">Rejouer</a>'
+                        ' a gagné ! <br /> <a href="index.html">Rejouer</a>'
                     );
                     return;
                 }
 
                 if (matchNul(pions)) {
                     afficheur.sendMessage(
-                        'Match Nul ! <br/> <a href="morpion.html">Rejouer</a>'
+                        'Match Nul ! <br/> <a href="index.html">Rejouer</a>'
                     );
                     return;
                 }
